@@ -1,0 +1,32 @@
+.select {
+    border: 1px solid black;
+    display: inline-block;
+    cursor: pointer;
+    min-width: 100px;
+    text-align: center;
+    border-radius: 4px;
+    position: relative;
+}
+.title {
+    padding: 4px 16px;
+    min-height: 16px;
+}
+ul {
+    min-width: 100px;
+    position: absolute;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin: unset;
+    padding-left: unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+li {
+    list-style: none;
+    padding: 4px 16px;
+}
+li:hover {
+    color: white;
+    background-color: #07405e;
+}

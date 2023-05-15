@@ -5,7 +5,7 @@ import Rating, {RatingValueType} from "./components/Rating/Rating";
 import OnOff from "./components/OnOff/OnOff";
 import {UncontrolledAccordion} from "./components/UnControlledAccordion/UnControlledAccordion";
 import {UnControlledRating} from "./components/UnControlledRating/UnControlledRating";
-import UncontrolledOnOff from "./components/UncontrolledOnOff/UncontrolledOnOff.stories";
+import UncontrolledOnOff from "./components/UncontrolledOnOff/UncontrolledOnOff";
 
 export type sizeRatingType = 16 | 24 | 32 | 40
 
@@ -21,7 +21,7 @@ function App() {
             {/*<PageTitle title={'Home Page'}/>*/}
             {/*<PageTitle title={'Contacts Page'}/>*/}
             {/*<Rating value={ratingValue} onClick={setRatingValue}/>*/}
-            <Rating size={sizeRating} value={ratingValue} onClick={setRatingValue}/>
+            {/*<Rating size={sizeRating} value={ratingValue} onClick={setRatingValue}/>*/}
             {/*<Accordion title={'Menu'}*/}
             {/*           collapsed={accordionCollapsed}*/}
             {/*           onCnahge={() => {setAccordionCollapsed(!accordionCollapsed)}}/>*/}
@@ -32,9 +32,9 @@ function App() {
             {/*<OnOff />*/}
             {/*<UncontrolledAccordion title={'Need to Learn'}/>*/}
             {/*<UncontrolledAccordion title={'Need to Buy'}/>*/}
-            <UnControlledRating />
-            <UncontrolledOnOff onChange={setOn}/>
-            <OnOff on={on} onChange={() => setOn(!on)}/>
+            {/*<UnControlledRating />*/}
+            {/*<UncontrolledOnOff />*/}
+            {/*<OnOff on={on} onChange={() => setOn(!on)}/>*/}
         </div>
 
     );

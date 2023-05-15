@@ -9,7 +9,7 @@ const meta: Meta<typeof Accordion> = {
         collapsed: {
             control: {type: 'boolean'},
             options: [true, false]
-        }
+        },
     }
 };
 
@@ -20,13 +20,25 @@ type Story = StoryObj<typeof meta>
 export const Collapsed: Story = {
     args: {
         collapsed: true,
-        title: 'Collapsed'
+        title: 'Collapsed',
+        items: [
+            {title: 'Red', value: 1},
+            {title: 'Green', value: 2},
+            {title: 'Yellow', value: 3},
+            {title: 'Gray', value: 4}
+        ]
     }
 }
 
 export const UnCollapsed: Story = {
     args: {
         collapsed: false,
-        title: 'UnCollapsed'
+        title: 'UnCollapsed',
+        items: [
+            {title: 'Red', value: 1},
+            {title: 'Green', value: 2},
+            {title: 'Yellow', value: 3},
+            {title: 'Gray', value: 4}
+        ]
     }
 }
