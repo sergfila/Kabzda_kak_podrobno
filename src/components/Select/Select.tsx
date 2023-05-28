@@ -29,7 +29,7 @@ export function Select(props: SelectPropsType) {
         <div className={s.select} onClick={optionsShow}>
             <div className={s.title}>{selectedItem && selectedItem.title}</div>
             {!collapsed && <ul className={s.items}>{props.items.map(el =>
-                <li key={el.value} onClick={() => newSelectTitle(el.value)}>{el.title}</li>)}
+                <li className={s.item} key={el.value} onClick={() => newSelectTitle(el.value)}>{el.title}</li>)}
             </ul>}
         </div>
     )

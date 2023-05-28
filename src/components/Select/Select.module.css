@@ -11,7 +11,7 @@
     padding: 4px 16px;
     min-height: 16px;
 }
-ul {
+.items {
     min-width: 100px;
     position: absolute;
     border-radius: 4px;
@@ -22,11 +22,11 @@ ul {
     flex-direction: column;
     justify-content: center;
 }
-li {
+.item {
     list-style: none;
     padding: 4px 16px;
 }
-li:hover {
+.item:hover {
     color: white;
     background-color: #07405e;
 }
