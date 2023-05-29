@@ -1,9 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import {UseMemo} from "./UseMemo";
+import {UseCallback} from "./UseCallback";
 
-const meta: Meta<typeof UseMemo> = {
-    title: 'Use/UseMemo',
-    component: UseMemo,
+const meta: Meta<typeof UseCallback> = {
+    title: 'Use/UseCallback',
+    component: UseCallback,
     tags: ['autodocs'],
     argTypes: {
         value: {
